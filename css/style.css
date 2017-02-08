@@ -1,7 +1,45 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+
 /*Universals*/
 
-/*logomark*/
+/*navigation*/
 #logomark{
-  background-image: url(../img/jack_of_diamonds.png);
-  background-color: #000;
+  background-image: url("../img/jack_of_diamonds.png");
+  background-color: #337ab7;
+  height:100px;
+  color:#fff;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Righteous', cursive;
+  font-size: 32px ;
+  border-radius: 20%;
 }
+#nav-bar{
+  background-color: rgba(77, 116, 221,.3);
+}
+#nav-position{
+  margin-top:25px;
+  /*position: relative;*/
+}
+
+.nav-pills>li>a{
+  font-family: 'Righteous',cursive;
+  font-size: 26px;
+
+}
+/*jumbotron*/
+.jumbotron{
+  background-image: url("../img/hero-bg.png");
+  background-size:cover;
+  background-position:center;
+  height:400px;
+  font-family: 'Audiowide', cursive;
+  color:#337ab7;
+  }
+  .jumbotron>h1{
+    font-size: 100px;
+    margin-top: 75px;
+  }
