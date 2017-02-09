@@ -1,24 +1,35 @@
 /*fonts*/
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
-
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 /*Universals*/
 
 /*navigation*/
-#logomark{
-  background-image: url("../img/jack_of_diamonds.png");
+.logomark{
+  /*background-image: url("../img/jack_of_diamonds.png");*/
   background-color: #337ab7;
-  height:100px;
-  color:#fff;
-  background-position: center;
+  border-radius:30%;
+  padding:5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /*background-position: center;
   background-size: cover;
-  font-family: 'Righteous', cursive;
-  font-size: 32px ;
+  */
+
+}
+.logomark>.img-responsive{
+  height:70px;
   border-radius: 20%;
 }
+#logo{
+  font-family: 'Righteous', cursive;
+  font-size: 32px ;
+  color:#000;
+  height:30px;
+}
 #nav-bar{
-  background-color: rgba(77, 116, 221,.3);
+  background-color: #5f6970;
 }
 #nav-position{
   margin-top:25px;
@@ -38,8 +49,37 @@
   height:400px;
   font-family: 'Audiowide', cursive;
   color:#337ab7;
-  }
-  .jumbotron>h1{
-    font-size: 100px;
-    margin-top: 75px;
-  }
+  margin:0;
+
+}
+.jumbotron>h1{
+  font-size: 100px;
+  margin-top: 75px;
+}
+
+  /*Footer*/
+#footer-bg{
+  background-color: #5f6970;
+}
+#word-mark{
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+}
+#footer-logo{
+    height:50px;
+
+}
+address{
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0;
+}
+
+.social-media>a{
+  color: #fff;
+  font-size: 16px;
+}
+.social-media>a>i{
+color: #337ab7;
+font-size: 24px;
+margin: 0 10px;
+}
