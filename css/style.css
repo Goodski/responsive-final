@@ -13,34 +13,33 @@
   padding:5px;
   margin-top: 5px;
   margin-bottom: 5px;
-  /*background-position: center;
-  background-size: cover;
-  */
-
 }
-.logomark>.img-responsive{
-  height:70px;
+
+
+#logomark-header{
+  padding: 5px;
   border-radius: 20%;
 }
 #logo{
   font-family: 'Righteous', cursive;
-  font-size: 32px ;
+  font-size: 20px ;
   color:#000;
   height:30px;
 }
+/*Nav pills css*/
 #nav-bar{
   background-color: #5f6970;
 }
 #nav-position{
-  margin-top:25px;
-  /*position: relative;*/
+  margin-top:40px;
 }
 
 .nav-pills>li>a{
   font-family: 'Righteous',cursive;
   font-size: 26px;
-
 }
+/*Nav bar ends*/
+
 /*jumbotron*/
 .jumbotron{
   background-image: url("../img/hero-bg.png");
@@ -50,7 +49,6 @@
   font-family: 'Audiowide', cursive;
   color:#337ab7;
   margin:0;
-
 }
 .jumbotron>h1{
   font-size: 100px;
@@ -61,14 +59,15 @@
 #footer-bg{
   background-color: #5f6970;
 }
+/*Footer Logo*/
 #word-mark{
     font-family: 'Righteous', cursive;
     font-size: 18px;
 }
 #footer-logo{
     height:50px;
-
 }
+/*footer logo end*/
 address{
     font-family: 'Playfair Display', serif;
     margin-bottom: 0;
