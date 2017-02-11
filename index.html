@@ -1,36 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Jack of all Trades</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <div class="container-fluid">
-    <div class="row" id="nav-bar">
-      <!-- Header navigation -->
-      <div class="col-md-2 col-md-offset-1" id="logomark">
-        <p class="text-center">Jack of all Trades</p>
-      </div>
-      <div class="col-md-4 col-md-offset-4" id="nav-position">
-        <ul class="nav nav-pills">
-          <li role="presentation" class="active"><a href="#">Home</a></li>
-          <li role="presentation"><a href="#">Porfolio</a></li>
-          <li role="presentation"><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-    <!-- Jumbotron Section -->
-    <div class="jumbotron">
-      <h1 class="hero-text text-center">
-        Working to Master One
-      </h1>
-    </div>
-  </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jack of all Trades</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row" id="nav-bar">
+        <!-- Header navigation -->
+        <div class="col-md-3 col-md-offset-1 logomark-contain" >
+          <div class="row">
+            <!-- Logomark -->
+            <div class="col-md-4 col-md-offset-4 logomark" >
 
-</body>
+              <img src="img/jack_of_diamonds.png" alt="logomark" class="img-responsive center-block" id="logomark-header">
+            </div>
+          </div>
+          <div class="row logo-text ">
+            <div class="col-md-8 col-md-offset-2">
+              <p class="text-center" id="logo">Jack of all Trades</p>
+            </div>
+          </div>
+        </div>
+        <!-- Logomark end -->
+        <!-- Navigation pills -->
+        <div class="col-md-4 col-md-offset-4" id="nav-position">
+          <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">Porfolio</a></li>
+            <li role="presentation"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Navigation pills end -->
+      <!-- Jumbotron Section -->
+      <div class="jumbotron">
+        <h1 class="hero-text text-center">
+          Working to Master One
+        </h1>
+      </div>
+    </div>
+    <!-- end Jumbotron -->
+    <!-- Start Footer -->
+    <footer class="container-fluid" id="footer-bg">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img src="img/jack_of_diamonds.png" alt="logomark" class="logomark" id="footer-logo">
+          <div  id="word-mark">Jack of all Trades</div>
+          <address class="text-center">
+              Jason Good
+              788 W. Los Altos Ave,
+              Clovis, CA<br/>
+              Goodski05@yahoo.com
+          </address>
+          <div class="social-media">
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a>
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>Linkedin</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy;JasonGood. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

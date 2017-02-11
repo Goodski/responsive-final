@@ -1,35 +1,45 @@
 /*fonts*/
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
-
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 /*Universals*/
 
 /*navigation*/
-#logomark{
-  background-image: url("../img/jack_of_diamonds.png");
+.logomark{
+  /*background-image: url("../img/jack_of_diamonds.png");*/
   background-color: #337ab7;
-  height:100px;
-  color:#fff;
-  background-position: center;
-  background-size: cover;
-  font-family: 'Righteous', cursive;
-  font-size: 32px ;
+  border-radius:30%;
+  padding:5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+#logomark-header{
+  padding: 5px;
   border-radius: 20%;
 }
+#logo{
+  font-family: 'Righteous', cursive;
+  font-size: 20px ;
+  color:#000;
+  height:30px;
+}
+/*Nav pills css*/
 #nav-bar{
-  background-color: rgba(77, 116, 221,.3);
+  background-color: #5f6970;
 }
 #nav-position{
-  margin-top:25px;
-  /*position: relative;*/
+  margin-top:40px;
 }
 
 .nav-pills>li>a{
   font-family: 'Righteous',cursive;
   font-size: 26px;
-
 }
+/*Nav bar ends*/
+
 /*jumbotron*/
 .jumbotron{
   background-image: url("../img/hero-bg.png");
@@ -38,8 +48,37 @@
   height:400px;
   font-family: 'Audiowide', cursive;
   color:#337ab7;
-  }
-  .jumbotron>h1{
-    font-size: 100px;
-    margin-top: 75px;
-  }
+  margin:0;
+}
+.jumbotron>h1{
+  font-size: 100px;
+  margin-top: 75px;
+}
+
+  /*Footer*/
+#footer-bg{
+  background-color: #5f6970;
+}
+/*Footer Logo*/
+#word-mark{
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+}
+#footer-logo{
+    height:50px;
+}
+/*footer logo end*/
+address{
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0;
+}
+
+.social-media>a{
+  color: #fff;
+  font-size: 16px;
+}
+.social-media>a>i{
+color: #337ab7;
+font-size: 24px;
+margin: 0 10px;
+}
