@@ -7,7 +7,6 @@
 
 /*navigation*/
 .logomark{
-  /*background-image: url("../img/jack_of_diamonds.png");*/
   background-color: #337ab7;
   border-radius:30%;
   padding:5px;
@@ -37,6 +36,7 @@
 .nav-pills>li>a{
   font-family: 'Righteous',cursive;
   font-size: 26px;
+  background-color: #454c51;
 }
 /*Nav bar ends*/
 
@@ -82,3 +82,37 @@ color: #337ab7;
 font-size: 24px;
 margin: 0 10px;
 }
+/*Media Queary*/
+@media screen and (max-width: 480px){
+  .jumbotron{
+    height:100px;
+  }
+  .jumbotron>h1{
+    font-size: 32px;
+    margin-top: -13px;
+  }
+  #logo{
+    font-size: 32px;
+  }
+  .nav-pills>li>a{
+    font-size: 18px;
+  }
+  .nav-pills>li{
+    float:none;
+    display:inline-block;
+  }
+  .nav-pills{
+    text-align: center;
+  }
+
+  .social-media>a{
+    color: #fff;
+    font-size: 12px;
+  }
+  .social-media>a>i{
+  color: #337ab7;
+  font-size: 18px;
+  margin: 0 10px;
+  }
+}
+/*end media Queary*/

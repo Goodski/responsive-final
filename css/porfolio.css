@@ -1,0 +1,21 @@
+/*Thumbnail Section*/
+
+.tn_spacing{
+  padding: 30px;
+}
+.col-md-4>.thumbnail{
+  height:400px;
+
+}
+.col-md-4>.thumbnail>img{
+  box-shadow: 4px 4px 5px #000
+}
+.col-md-4>.thumbnail>.caption{
+  font-family: 'Righteous', cursive;
+}
+.col-md-4>.thumbnail>.caption>p{
+  font-family: 'Playfair Display', serif;
+}
+.col-md-4>.thumbnail>.caption>p>a{
+  font-family: 'Righteous', cursive;
+}
